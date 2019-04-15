@@ -1,0 +1,29 @@
+// Variables
+// =================================================
+
+@import "~uikit/src/scss/components/variables";
+
+$colors: (
+  /* Brand colors */
+  "primary": #1e87f0, // Do not remove
+  "secondary": #222222, // Do not remove
+  /* Defaults */
+  "danger": #f0506e, // Do not remove
+  "success": #32d296, // Do not remove
+  /* Shades */
+  "muted": #f8f8f8, // Do not remove
+  "base": #666666, // Do not remove
+  "white": #ffffff,
+  "black": #222222,
+);
+
+$global-primary-background: map_get($colors, "primary");
+$global-secondary-background: map_get($colors, "secondary");
+$global-danger-background: map_get($colors, "danger");
+$global-success-background: map_get($colors, "success");
+$global-muted-background: map_get($colors, "muted");
+$global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$base-body-color: map_get($colors, "base");
+
+// Import last
+@import "~uikit/src/scss/variables-theme"; // Theme

@@ -1,0 +1,6 @@
+name: uikit_scss_starter
+description: 'October CMS WebpackMix Theme'
+author: Allekslar
+homepage: ''
+code: 'uikit_scss_starter'
+form: config/fields.yaml

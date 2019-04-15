@@ -1,0 +1,45 @@
+==
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{ this.page.title }}
+        |
+        {{ this.theme.config.name }}</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="title" content="{{ this.page.meta_title }}">
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}" />
+    <link rel="stylesheet" href="{{ 'assets/css/theme.css'|theme }}" />
+    {% styles %}
+
+
+</head>
+<body
+    class="theme-{{ this.theme.id }}">
+        <!-- Header -->
+        <section id="layout-header">
+                {% partial 'header/header' %}
+        </section>
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <section id="layout-footer">
+            {% partial 'footer/footer' %}
+        </section>
+    
+
+
+    <script type="text/javascript" src="{{ 'assets/js/manifest.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/vendor.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/theme.js'|theme }}"></script>
+    {% framework %}
+    {% scripts %}
+</body>
+
+</html>

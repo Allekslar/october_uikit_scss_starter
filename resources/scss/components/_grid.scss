@@ -1,0 +1,17 @@
+// Grid
+// =================================================
+
+@import "~uikit/src/scss/components/grid";
+
+.ui-grid-divider > :not(.ui-first-column)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-left: 0 none;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 120 240' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='60' cy='60' r='50' fill='currentColor'/><circle cx='60' cy='180' r='50' fill='none'/><circle cx='60' cy='60' r='47' stroke='%23fff' stroke-width='3' stroke-dasharray='0 5' stroke-linecap='round' fill='transparent'/></svg>");
+  background-repeat: repeat-y;
+  background-position: center center;
+  width: 3px;
+}

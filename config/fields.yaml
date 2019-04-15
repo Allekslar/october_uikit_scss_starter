@@ -1,0 +1,56 @@
+tabs:
+  fields:
+    # Header settings
+    site_name:
+      tab: Header
+      span: left
+      label: Site name
+      type: text
+    # Footer settings
+    company_name:
+      tab: Footer
+      span: left
+      label: Company name
+    company_description:
+      tab: Footer
+      span: left
+      label: Company description
+      type: textarea
+      size: small
+    contact_phone:
+      tab: Footer
+      span: left
+      label: Contact phone
+      type: text
+    contact_address:
+      tab: Footer
+      span: left
+      label: Contact address
+      type: text
+    contact_email:
+      tab: Footer
+      span: left
+      label: Contact email
+      type: text
+    copyright:
+      tab: Footer
+      span: left
+      label: Copyright
+      type: text
+    # Social links
+    facebook_link:
+      tab: Social
+      span: left
+      label: Facebook link
+      type: text
+    instagram_link:
+      tab: Social
+      span: left
+      label: Instagram link
+      type: text
+    twitter_link:
+      tab: Social
+      span: left
+      label: Twitter link
+      type: text
+   
